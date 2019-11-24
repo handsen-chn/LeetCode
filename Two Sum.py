@@ -7,6 +7,8 @@
 @File: Two Sum.py
 @Software: PyCharm
 """
+
+
 # 自己写的，简直感人，击败8%的提交者
 class Solution:
     def twoSum(self, nums, target):
@@ -20,7 +22,8 @@ class Solution:
                 if target == nums[i] + nums[j]:
                     return [i, j]
 
-#别人的写法，使用字典，数据存储，存储比较同时进行
+
+# 别人的写法，使用字典，数据存储，存储比较同时进行
 class Solution:
     def twoSum(self, nums, target):
         """

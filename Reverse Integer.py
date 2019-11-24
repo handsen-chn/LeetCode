@@ -8,6 +8,7 @@
 @Software: PyCharm
 """
 
+
 class Solution:
     def reverse(self, x):
         """
@@ -24,4 +25,3 @@ class Solution:
             return y
         else:
             return 0
-
